@@ -15,5 +15,11 @@ class Calculator {
     Multiply(a,b) {
         return this.Result = MathOperations.product(a,b);
     }
+	Square(a) {
+        return this.Result = MathOperations.pow(a, 2);
+    }
+	SquareRoot(a) {
+        return this.Result = MathOperations.pow(a, 0.5);
+    }
 }
 module.exports = Calculator;
