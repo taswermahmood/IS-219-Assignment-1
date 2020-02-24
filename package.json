@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node index.js"
-	"coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
+    "start": "node index.js",
+	"coverage": "jest --coverage",
+	"coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
   },
   "keywords": [],
   "author": "Taswer Mahmood",
