@@ -1,8 +1,4 @@
 function square(a){
-        try {
-            return this.results = operations.square(a);
-        } catch (error) {
-            throw error
-        }
-    }
+	return Math.pow(a, 2);
+}
 module.exports = square;

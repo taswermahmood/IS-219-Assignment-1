@@ -1,8 +1,4 @@
 function squareRoot(a){
-        try {
-            return this.results = operations.squareRoot(a);
-        } catch (error) {
-            throw error
-        }
-    }
+	return Math.sqrt(a);
+}
 module.exports = squareRoot;
