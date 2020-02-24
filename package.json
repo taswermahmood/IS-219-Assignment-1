@@ -1,21 +1,26 @@
 {
-  "name": "is219",
+  "name": "is219-ass1",
   "version": "1.0.0",
-  "description": "My First Node App",
+  "description": "��#\u0000 \u0000I\u0000S\u0000-\u00002\u00001\u00009\u0000-\u0000A\u0000s\u0000s\u0000i\u0000g\u0000n\u0000m\u0000e\u0000n\u0000t\u0000-\u00001\u0000\r\u0000 \u0000",
   "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "start": "node index.js",
-    //"coverage": "jest --coverage",
-    //"coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+  "directories": {
+    "test": "tests"
   },
-  "keywords": [],
-  "author": "Taswer Mahmood",
-  "email": "tm379@njit.edu",
+  "dependencies": {
+    "coveralls": "^3.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taswermahmood/IS-219-Assignment-1.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "coveralls": "^3.0.9",
-    "jest": "^25.1.0"
-  }
+  "bugs": {
+    "url": "https://github.com/taswermahmood/IS-219-Assignment-1/issues"
+  },
+  "homepage": "https://github.com/taswermahmood/IS-219-Assignment-1#readme"
 }
