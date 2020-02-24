@@ -1,7 +1,7 @@
 const Calculator = require('./MathOperations');
 a = 1;
 b = 2;
-
+//baal
 sum = Calculator.sum(a,b);
 product = Calculator.product(a,b);
 quotient = Calculator.quotient(a,b);
