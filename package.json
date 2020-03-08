@@ -1,27 +1,29 @@
 {
-  "name": "is219",
+  "name": "is219-ass1",
   "version": "1.0.0",
-  "description": "My First Node App",
+  "description": "[![Build Status](https://travis-ci.org/taswermahmood/IS-219-Assignment-1.svg?branch=master)](https://travis-ci.org/taswermahmood/IS-219-Assignment-1)",
   "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "start": "node index.js",
-    "coverage": "jest --coverage",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+  "directories": {
+    "test": "tests"
   },
-  "keywords": [],
-  "author": "Taswer Mahmood",
-  "email": "tm379@njit.edu",
-  "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "coveralls": "^3.0.9",
-    "jest": "^25.1.0"
-  }
   "dependencies": {
-    "csv": "^5.3.2",
-    "csv-parse": "^4.8.8",
-    "csv-reader": "^1.0.6",
-    "fs": "0.0.1-security"
-  }
+    "jest": "^25.1.0"
+  },
+  "devDependencies": {
+    "csv-parser": "^2.3.2",
+    "csv-reader": "^1.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taswermahmood/IS-219-Assignment-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taswermahmood/IS-219-Assignment-1/issues"
+  },
+  "homepage": "https://github.com/taswermahmood/IS-219-Assignment-1#readme"
 }
