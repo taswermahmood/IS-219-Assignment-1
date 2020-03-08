@@ -1,4 +1,4 @@
-const City = require("../City")
+const City = require("../city")
 
 test("Create a City Object", () => {
     let city = new City()
