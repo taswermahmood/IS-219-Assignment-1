@@ -1,4 +1,5 @@
 const City = require("../city")
+const CSVReader = require("../CSVReader")
 
 test("Create a CSVReader Object", () => {
     let csv = new CSVReader("./testCitiesData.csv", City)

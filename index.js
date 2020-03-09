@@ -11,16 +11,16 @@ console.log("The product is: " + product);
 console.log("The quotient is: " + quotient);
 
 const CSVReader = require("./CSVReader")
-const City = require("./City")
+const City = require("./city")
 
 
-let reader = new CSVReader("./test/testCitiesData.csv", City);
+let reader = new CSVReader("./data/worldcities.csv", City);
 
 const test = async () => {
     try {
         let {output, size} = await reader.parse();
         let record = output[0]  
-        console.log(record)  
+        // console.log(record)  
     } catch (error) {
         console.log(error)
     }
